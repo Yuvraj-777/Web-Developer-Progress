@@ -1,0 +1,83 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 50px 0 30px;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.section {
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.button-container div {
+    padding: 0;
+}
+
+.button-container a {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 18px;
+    background: linear-gradient(135deg, #007bff 0%, #00c6ff 100%);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+.button-container a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.6);
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #007bff;
+    width: 80%;
+    margin: 60px auto;
+    border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-container a {
+        margin: 10px 0;
+        width: 80%;
+    }
+}
