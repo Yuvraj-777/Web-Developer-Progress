@@ -1,0 +1,35 @@
+* {
+  background-color: black;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.photo {
+  width: 550px;
+  height: 283px;
+  border: 2px solid white;
+  background-color: blue;
+  margin-top: 10vh;
+  
+}
+
+.head {
+    color: white;
+    font-size: 4.5vw;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -1vh;
+}
+
+.subhead {
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: -5vh;
+    font-size: 3vh;
+}
