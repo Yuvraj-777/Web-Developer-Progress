@@ -8,7 +8,7 @@ Welcome to watch my journey In this repository i'll upload a complete basic to a
 ## 🔥Features
 - Easy-to-Learn
 - Watch My Journey
-- Follow and Lean with me
+- Follow and Learn with me
 - Audit For Progress
   
 # 🚀Getting Started
