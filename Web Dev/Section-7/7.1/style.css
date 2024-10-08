@@ -1,0 +1,29 @@
+
+h1,h2 {
+  color: blueviolet;
+}
+/* Selector Grouping using , */
+
+.box > .done /* or .box > p*/ { 
+  color: firebrick
+  ;
+}
+/* using parent child selection  */
+
+
+.box li {
+  color: blue;
+}
+/* using descendent selector */
+
+li.done {
+  color: green;
+}
+/* using chining selector no space otherwise it will be descendent */
+
+
+/* body p.done or */
+ul p.done{
+  font-size: 0.5rem;
+}
+/* using combining combiners */

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Positioning Exercise</title>
+    <style>
+      .blue-box {
+        position: absolute;
+        z-index: -1;
+        height: 300px;
+        width: 500px;
+        background-color: blue;
+        top: 50%;
+        left: 50%;
+      }
+
+      .red-circle {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+        top: 150px;
+        left: 250px;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="blue-box">
+      <div class="red-circle"></div>
+    </div>
+  </body>
+</html>
+
+<!-- absolution isn relarted to webpage but fix is related to top left corner so when
+you will scroll absolute will stay back but fixed will stick to top left corner
+of screen -->
