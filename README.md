@@ -30,7 +30,7 @@ open Section As-Per Need
 ### 🧑‍💻Technologies Used
 - HTML5: For structuring the pages and content.
 - CSS3: For styling and ensuring the site is visually appealing.
-.....Till Yet
+- ..............Till Yet
 
 # 📜How to Contribute
 Feel free to contribute to the development By Following me in this Journey.
